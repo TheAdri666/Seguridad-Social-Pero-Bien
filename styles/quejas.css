@@ -71,6 +71,7 @@ header #logo .not-as-bold {
 
 #content {
   height: 70vh;
+  margin: 5vh 0 5vh 10vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
