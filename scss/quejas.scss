@@ -1,0 +1,35 @@
+@import "./global";
+@import "./footer";
+
+header {
+  background-color: lightblue;
+  color: #3E74B4;
+  height: 10vh;
+  #logo {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 100vw;
+    img {
+      margin-left: 10vw;
+    }
+    h1 {
+      margin: 0 0 0 15px;
+    }
+    .gray-mini {
+      font-size: 10px;
+      color: gray;
+    }
+    .not-as-bold {
+      font-weight: 100;
+      color: #5080BB;
+    }
+  } 
+}
+
+#content {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

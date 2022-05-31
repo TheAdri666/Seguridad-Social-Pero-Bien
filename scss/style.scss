@@ -1,0 +1,49 @@
+@import "./global";
+@import "./footer";
+
+header {
+  background-color: lightblue;
+  color: #3E74B4;
+  height: 10vh;
+
+  #separation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      margin-right: 15vw;
+      text-decoration: none;
+      color: #333333;
+      font-size: 1.25rem;
+    }
+    #logo {
+      display: flex;
+      flex-direction: row;
+      height: fit-content;
+      width: 100vw;
+      img {
+        margin-left: 10vw;
+      }
+      h1 {
+        margin: 0 0 0 15px;
+      }
+      .gray-mini {
+        font-size: 10px;
+        color: gray;
+      }
+      .not-as-bold {
+        font-weight: 100;
+        color: #5080BB;
+      }
+    } 
+  }
+}
+
+#literalmente-todo-el-contenido{
+  height: 70vh;
+  margin: 5vh 0 5vh 10vw;
+  display: flex;
+  color: #111;
+  flex-direction: column;
+  justify-content: space-between;
+}

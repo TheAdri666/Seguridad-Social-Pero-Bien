@@ -1,0 +1,106 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  color: white;
+  background-color: #203030;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+}
+
+header {
+  background-color: lightblue;
+  color: #3E74B4;
+  height: 10vh;
+}
+
+header #separation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header #separation a {
+  margin-right: 15vw;
+  text-decoration: none;
+  color: #333333;
+  font-size: 1.25rem;
+}
+
+header #separation #logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100vw;
+}
+
+header #separation #logo img {
+  margin-left: 10vw;
+}
+
+header #separation #logo h1 {
+  margin: 0 0 0 15px;
+}
+
+header #separation #logo .gray-mini {
+  font-size: 10px;
+  color: gray;
+}
+
+header #separation #logo .not-as-bold {
+  font-weight: 100;
+  color: #5080BB;
+}
+
+#literalmente-todo-el-contenido {
+  height: 70vh;
+  margin: 5vh 0 5vh 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #111;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */
